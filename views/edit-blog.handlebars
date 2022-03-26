@@ -1,0 +1,36 @@
+<section class="dashboard">
+  <div>
+    <h2>Update Your Post</h2>
+  </div>
+  <div>
+    <a href="/dashboard">Return</a>
+  </div>
+  <div id="edit-post-el">
+    <form id="edit-post-form">
+      <div>
+        <label for="edit-title">Update Title: </label>
+        <input name="edit-title" id="edit-title" value="{{blog.title}}" />
+      </div>
+      <div>
+        <label for="edit-content">Update Content:</label>
+        <textarea
+          name="edit-content"
+          id="edit-content"
+        >{{blog.content}}</textarea>
+      </div>
+      <div>
+        <button
+          type="submit"
+          id="edit-blog-btn"
+          class="create-btn"
+        >UPDATE!</button>
+      </div>
+      <div>
+        <button class="delete-btn">DELETE!</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<script src="/javascript/edit-blog.js"></script>
+<script src="/javascript/delete-blog.js"></script>

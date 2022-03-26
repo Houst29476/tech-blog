@@ -1,0 +1,26 @@
+<article class="post">
+    <div>
+        <span class='title'>Title: {{blog.title}}</span>
+    </div>
+    <div class="content">
+        <span>Blog: {{blog.content}}</span>
+    </div>
+    <div class='username'>Blogger: {{blog.User.username}}</div>
+    <div class='time-stamp'>Posted: {{timeStamp blog.created_at}}</div>
+</article>
+
+<form id="comment-form">
+    <div>
+        <label for="comment-text">Add a New Comment:</label>
+        <textarea name="comment-text" id='comment-text'></textarea>
+    </div>
+    <div>
+        <button type="submit" class='create-btn'>Add Comment</button>
+    </div>
+</form>
+
+{{> comments blog.Comments}}
+
+{{#if loggedIn}}
+<script src="/javascript/comment.js"></script>
+{{/if}}
