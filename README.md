@@ -4,7 +4,7 @@
 
 ## Description
 
-Code Zone is a developer blog app where users can signup for an account, login with their username and password, publish blog posts, comment on others' posts, and update or delete their own posts. This is a RESTful API app following MVC development using MySQL with Sequelize as an ORM and Handlebars for the front-end. Express was used for routing along with Sequelize for accessing the API data, and Express-Session and bcrypt were used for user authentication.
+Tech Blog is a developer blog app where users can signup for an account, login with their username and password, publish blog posts, comment on others' posts, and update or delete their own posts. This is a RESTful API app following MVC development using MySQL with Sequelize as an ORM and Handlebars for the front-end. Express was used for routing along with Sequelize for accessing the API data, and Express-Session and bcrypt were used for user authentication.
 
 #### User Signup Page:
 
