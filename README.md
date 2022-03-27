@@ -1,6 +1,6 @@
 # Tech Blog
 
-![License](https://img.shields.io/badge/License%3A-MIT-green.svg) <a href="https://code-zone.herokuapp.com/">![Deployed App](https://img.shields.io/badge/Deployed%20App-blue.svg)</a>
+![License](https://img.shields.io/badge/License%3A-MIT-green.svg) <a href="https://tech-blog-houst29476.herokuapp.com/">![Deployed App](https://img.shields.io/badge/Deployed%20App-blue.svg)</a>
 
 ## Description
 
