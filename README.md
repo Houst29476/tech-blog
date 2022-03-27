@@ -1,4 +1,4 @@
-# Tech Blog
+![banner](https://user-images.githubusercontent.com/95327275/160290062-9f4e63a1-baea-4766-aa31-017569b043fd.jpg)
 
 ![License](https://img.shields.io/badge/License%3A-MIT-green.svg) <a href="https://tech-blog-houst29476.herokuapp.com/">![Deployed App](https://img.shields.io/badge/Deployed%20App-blue.svg)</a>
 
