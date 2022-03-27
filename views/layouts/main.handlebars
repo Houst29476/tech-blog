@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Zone</title>
+    <title>Tech Blog</title>
     <!--- Bulma --->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css"
         integrity="sha512-ZRv40llEogRmoWgZwnsqke3HNzJ0kiI0+pcMgiz2bxO6Ew1DVBtWjVn0qjrXdT3+u+pSN36gLgmJiiQ3cQtyzA=="
@@ -13,16 +13,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
         integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
         crossorigin="anonymous" />
-    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link rel="stylesheet" href="/stylesheet/style.css">
 </head>
 
 <body>
     <div class="wrapper">
-        <header class='has-background-primary-light'>
-            <nav class='navbar has-background-primary-light'>
+        <header class='has-background-info'>
+            <nav class='navbar has-background-info'>
                 <div class="navbar-brand">
                     <a href="/" class='navbar-item'>
-                        <h1 class='main-font title has-text-primary'>Tech Blog</h1>
+                        <h1 class='main-font title has-text-white-bis'>Tech Blog</h1>
                     </a>
                 </div>
 
@@ -41,7 +41,7 @@
                 {{else}}
                 <div class="navbar-end nav-btns">
                     <div class="navbar-item">
-                        <a href="/signup" class='button is-info'>SIGNUP</a>
+                        <a href="/signup" class='button is-danger'>SIGNUP</a>
                     </div>
                     <div class="navbar-item">
                         <a href="/login" class='button is-primary'>LOGIN</a>
@@ -51,19 +51,19 @@
 
             </nav>
         </header>
-        <main class='has-background-primary'>
+        <main class='has-background-info'>
 
             {{{body}}}
 
         </main>
 
         {{#if loggedIn}}
-        <foot class="footer has-background-primary-light">
-            <p class='has-text-centered is-size-4 has-text-dark'>Welcome to Tech Blog!</p>
+        <foot class="footer has-background-info">
+            <p class='has-text-centered is-size-4 has-text-light'>Welcome to Tech Blog!</p>
         </foot>
         {{else}}
-        <foot class="footer has-background-primary-light">
-            <p class='has-text-centered is-size-4 has-text-dark'>Tech Blog - Signup to start blogging!</p>
+        <foot class="footer has-background-info">
+            <p class='has-text-centered is-size-4 has-text-light'>Tech Blog - Signup to start blogging!</p>
         </foot>
         {{/if}}
     </div>
